@@ -8,31 +8,11 @@ html, body {
   overflow-x: hidden;
 }
 
-/*img {
+img {
   margin: 0px;
   padding: 0px;
   top: 0;
   left: 0;
-  position: static;
   width: 100%;
-  height: 1050px;
-}
-*/
-
-.liquor {
-  display:block;
-  position:absolute;
-  background:url('../../../assets/images/liquor_store.png');
-  background-repeat:no-repeat;
-  background-size: 100% 100%;
-  width:100%;
-  height:100%;
-  float:right;
-  bottom:0;
-  right:0;
-  z-index:-1;
-}
-
-p {
-  color: green;
+  height: 100vh;
 }
