@@ -1,0 +1,8 @@
+.container {
+  background-image: url('../../../assets/images/liquor_store_3.jpeg');
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}

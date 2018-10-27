@@ -1,14 +1,8 @@
-html {
-  background-image: url('../../../assets/images/specials_background.jpg');
+.container {
+  background-image: url('../../../assets/images/beer_taps_1.jpeg');
   background-position: center;
-  background-size: cover;
-}
-/*
-#bg {
-  margin: 0px;
-  padding: 0px;
-  top: 0;
-  left: 0;
+  background-size: 55%;
+  background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
-}*/
+}
