@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: 'app-header-home',
+  templateUrl: './header-home.component.html',
+  styleUrls: ['./header-home.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderHomeComponent implements OnInit {
 
   constructor() { }
 
