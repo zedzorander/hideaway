@@ -1,24 +1,34 @@
-.container {
+#header {
   height: 50px;
+}
+
+#home-info {
+  height: 50vh;
+  width: 60vw;
 }
 
 .text-center {
   text-align: center;
 }
 
-#store {
-  margin: 10px;
-  padding: 10px;
-}
-
-#gear {
+.float-right {
   float: right;
-  margin: 10px;
-  padding: 10px;
 }
 
-/*
-section {
-  background-color: blue;
+.float-left {
+  float: left;
 }
-*/
+
+.container .panel {
+  padding: 2ex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 3px solid blue;
+  background-color: lightgray;
+}
+
+.panel-body {
+  font-size: 1.5em;
+}
